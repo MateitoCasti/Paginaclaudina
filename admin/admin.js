@@ -22,11 +22,11 @@
       + (msg?'<p class="note">'+esc(msg)+'</p>':'')
       + '<label class="f"><span>Contraseña</span><input id="clave" type="password" autocomplete="current-password" required></label>'
       + '<button class="btn btn-main" type="submit"'+(saving?' disabled':'')+'>'+(saving?'Entrando…':'Entrar')+'</button>'
-      + '<a href="/" class="hint">Volver a la página</a></form></div>';
+      + '<a href="../" class="hint">Volver a la página</a></form></div>';
   }
 
   function api(body){
-    return fetch('/api/guardar',{method:'POST',headers:{'Content-Type':'application/json','X-Admin-Clave':clave},body:JSON.stringify(body)})
+    return fetch('../api/guardar',{method:'POST',headers:{'Content-Type':'application/json','X-Admin-Clave':clave},body:JSON.stringify(body)})
       .then(function(r){return r.json().catch(function(){return {};}).then(function(j){j._status=r.status;return j;});});
   }
 

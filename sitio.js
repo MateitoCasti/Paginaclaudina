@@ -9,7 +9,7 @@
   function imgSrc(s){
     if(typeof s!=='string') return '';
     if(/^data:image\/(webp|jpeg|png);base64,/.test(s)) return s;
-    if(/^fotos\/[A-Za-z0-9_-]+\.(webp|jpe?g|png)$/.test(s)) return '/'+s;
+    if(/^fotos\/[A-Za-z0-9_-]+\.(webp|jpe?g|png)$/.test(s)) return (window.SITIO_BASE||'')+s;
     return '';
   }
   function pic(src,label,cls,tint){
