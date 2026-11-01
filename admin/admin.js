@@ -5,7 +5,7 @@
 (function(){
   var S = window.Sitio, esc = S.esc, imgSrc = S.imgSrc;
   var root = document.getElementById('root');
-  var KEY = 'claudina-clave', DRAFT = 'claudina-borrador';
+  var KEY = 'Merlina1406', DRAFT = 'claudina-borrador';
   var saved = JSON.stringify(window.DATOS || {});
   var state = JSON.parse(saved);
   var local = {};
