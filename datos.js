@@ -1,11 +1,11 @@
 window.DATOS = {
   "nombre": "Claudina Pastelera",
   "marca": "Claudina",
-  "eyebrow": "Pastelería casera · San Martin",
+  "eyebrow": "Pastelería casera · [ZONA]",
   "hero": {
     "titulo": "Tortas hechas a mano para tus días lindos",
     "texto": "Cumpleaños, aniversarios o un domingo con mate. Horneamos cada torta por encargo, con ingredientes frescos y el relleno que más te guste.",
-    "foto": "fotos/mvzegwl08dvkwe.webp",
+    "foto": "fotos/mvzem0z1jabcp3.webp",
     "foto2": "",
     "foto3": ""
   },
@@ -83,5 +83,5 @@ window.DATOS = {
     "instagram": "claudinapastelera",
     "horarios": "[ZONA] · [DÍAS Y HORARIOS]"
   },
-  "pie": "Pastelería casera por encargo · San Martin"
+  "pie": "Pastelería casera por encargo · [ZONA]"
 };
